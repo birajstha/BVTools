@@ -1,3 +1,6 @@
+parallelPortTest.py sends out triggers from 1-255 with interval of 100ms.
+This code is helpful to test and build upon python application to send Event markers to BrainVision Amplifiers.
+
 Step 1
 $ pip install pyparallel
 more information at https://pypi.org/project/pyparallel/
