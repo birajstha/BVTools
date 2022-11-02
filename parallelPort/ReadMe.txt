@@ -18,3 +18,6 @@ $ sudo chmod 666 /dev/parport0
 Step 4
 (Ubuntu)If you run into problem: Device not found run
 $ sudo modprobe -r lp
+
+Step 5
+Run parallelport.py
