@@ -20,4 +20,4 @@ Step 4
 $ sudo modprobe -r lp
 
 Step 5
-Run parallelport.py
+Run parallelPortTest.py
