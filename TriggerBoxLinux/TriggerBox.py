@@ -16,7 +16,7 @@ gpio2 = GpioAsyncController()
 
 #search for devices and print them
 print("Found devices:")
-print(Ftdi.show_devices())
+Ftdi.show_devices()
 
 #0 is in, 1 is out
 gpio1.configure('ftdi://Brainproducts:0x0021:TB6QHXBF/1 ', direction=0b11111111) #1-8, all outputs
