@@ -15,7 +15,7 @@ This repo consists of few tools
 - This python code calculates the approximate filesize of the recording by Brain Product's amplifiers.
 
 ## 4. [SerialPort_Write_TriggerBox.py](https://github.com/birajstha/BVTools/blob/main/SerialPort_Write_TriggerBox.py) (Windows Only)
-- This python code is modified version of Brain Product's code. 
+- This python code is modified version of Brain Product's.
 - It requires TriggerBox Test IO program to be installed on the Windows OS.
 - Send markers via Virtual COM port -> TriggerBox -> Amplifier
 
@@ -26,4 +26,4 @@ This repo consists of few tools
 ## 6. [BirajLinuxTriggerBox.py](https://github.com/birajstha/BVTools/blob/main/BirajLinuxTriggerBox.py) (Linux)
 - This code is for using Brain Product's TriggerBox in Linux with python.
 - It uses PyFtdi library in order write to FT2232H
-- This code is modified version of Dr. Traumuller code.
+- This code is modified version of Dr. Traumuller's.
