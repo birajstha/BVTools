@@ -1,3 +1,2 @@
-/pycache
-/PlotChargeCycle/actiCHamp.log
-/PlotChargeCycle/BrainAmpFamily.log
+pycache
+PlotChargeCycle/*.log
