@@ -14,7 +14,7 @@ This repo consists of few tools
 ## 3. [FileSize.py](https://github.com/birajstha/BVTools/blob/main/FileSize.py) (Windows/Mac/Linux)
 - This python code calculates the approximate filesize of the recording by Brain Product's amplifiers.
 
-## 4. [SerialPort_Write_TriggerBox.py]() (Windows Only)
+## 4. [SerialPort_Write_TriggerBox.py](https://github.com/birajstha/BVTools/blob/main/SerialPort_Write_TriggerBox.py) (Windows Only)
 - This python code is modified version of Brain Product's code. 
 - It requires TriggerBox Test IO program to be installed on the Windows OS.
 - Send markers via Virtual COM port -> TriggerBox -> Amplifier
