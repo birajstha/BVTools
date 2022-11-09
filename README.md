@@ -5,12 +5,12 @@ This project is aimed to add tools to help work with Brain Product's amplifier a
 This project uses following libraries so please install them first using command :
 `pip install -r requirements.txt`
 
-colorama==0.4.6
-pyftdi==0.54.0
-pyparallel==0.2.2
-pyserial==3.5
-pyusb==1.2.1
-simple-term-menu==1.5.2
+- colorama==0.4.6
+- pyftdi==0.54.0
+- pyparallel==0.2.2
+- pyserial==3.5
+- pyusb==1.2.1
+- simple-term-menu==1.5.2
 
 This repo consists of few tools 
 ## 1. [PlotChargeCycle](https://github.com/birajstha/BVTools/tree/main/PlotChargeCycle) (Windows/Mac/Linux)
