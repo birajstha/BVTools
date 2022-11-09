@@ -2,13 +2,22 @@
 
 # Introduction
 This project is aimed to add tools to help work with Brain Product's amplifier and systems.
+This project uses following libraries so please install them first using command :
+`pip install -r requirements.txt`
+
+colorama==0.4.6
+pyftdi==0.54.0
+pyparallel==0.2.2
+pyserial==3.5
+pyusb==1.2.1
+simple-term-menu==1.5.2
 
 This repo consists of few tools 
 ## 1. [PlotChargeCycle](https://github.com/birajstha/BVTools/tree/main/PlotChargeCycle) (Windows/Mac/Linux)
 - This python application will take in a log file spit out by your Brain Product's amplifier to plot the battery charge cycle.
 - This has been helpful for determining if the battery is slowly losing its capacity, dying and if you will need a new battery.
 
-## 2. [BeepSound.py](https://github.com/birajstha/BVTools/blob/main/BeepSound.py) (Windows/Mac/Linux)
+## 2. [BeepSound.py](https://github.com/birajstha/BVTools/blob/main/BeepSound.py) (Windows only version)
 - This python code generates beep sound to test the Acoustic Stimulation Adapter / Stimtrak
 
 ## 3. [FileSize.py](https://github.com/birajstha/BVTools/blob/main/FileSize.py) (Windows/Mac/Linux)
