@@ -23,7 +23,7 @@ This repo consists of few tools
 - This python program is for Linux
 - Refer to ReadMe.txt for setup of the Parallel port.
 
-## 6. [BirajLinuxTriggerBox.py](https://github.com/birajstha/BVTools/blob/main/BirajLinuxTriggerBox.py) (Linux)
+## 6. [LinuxTriggerBox.py](https://github.com/birajstha/BVTools/tree/main/TriggerBoxLinux) (Linux)
 - This code is for using Brain Product's TriggerBox in Linux with python.
 - It uses PyFtdi library in order write to FT2232H
 - This code is modified version of Dr. Traumuller's.
