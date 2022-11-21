@@ -17,8 +17,10 @@ This repo consists of few tools
 - This python application will take in a log file spit out by your Brain Product's amplifier to plot the battery charge cycle.
 - This has been helpful for determining if the battery is slowly losing its capacity, dying and if you will need a new battery.
 
-## 2. [BeepSound.py](https://github.com/birajstha/BVTools/blob/main/BeepSound.py) (Windows only version)
-- This python code generates beep sound to test the Acoustic Stimulation Adapter / Stimtrak
+## 2. [ASA](https://github.com/birajstha/BVTools/tree/main/AcousticStimulationAdapter%20(ASA)) 
+- This contains python files to generate beep sound to test the Acoustic Stimulation Adapter / Stimtrak
+- BeepSound.py > uses winsound which is only available for windows
+- Sound.ipynb uses pyaudio. Please follow installation instructions [here](https://git.skeh.site/skeh/pyaudio)
 
 ## 3. [FileSize.py](https://github.com/birajstha/BVTools/blob/main/FileSize.py) (Windows/Mac/Linux)
 - This python code calculates the approximate filesize of the recording by Brain Product's amplifiers.
