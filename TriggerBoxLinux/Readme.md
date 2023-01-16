@@ -18,3 +18,5 @@ If you could see your devices listed as
 
 then, you can copy the address to use in 
 `gpio1.configure()` function in LinuxTriggerBox.py
+
+![UbuntuTB](https://user-images.githubusercontent.com/111654544/212751366-6ff4fcf8-8487-4c62-86c2-ebe0112aa4a8.png)
