@@ -2,7 +2,7 @@
 #writes the ft2232h via pyftdi
 #original by peter traunmüller 3.2021
 #modified by david schubring 1.2023
-#Modified Biraj Shrestha 11.2022, 01.23
+#Modified by Biraj Shrestha 11.2022, 01.23
 
 from pyftdi.ftdi import Ftdi
 from pyftdi.gpio import GpioAsyncController
