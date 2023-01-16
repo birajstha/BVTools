@@ -7,4 +7,4 @@ The library PyFtdi has prerequisites hence please follow the setup from [here](h
 ## list your devices
 - Please connect your TriggerBox and run `TriggerBox.py`
 
-![UbuntuTB](https://user-images.githubusercontent.com/111654544/212751366-6ff4fcf8-8487-4c62-86c2-ebe0112aa4a8.png)*Source: Schubring ( Technical Support/Brain Products)*
+![UbuntuTB](https://user-images.githubusercontent.com/111654544/212751366-6ff4fcf8-8487-4c62-86c2-ebe0112aa4a8.png)*Source: David Schubring ( Technical Support/Brain Products)*
