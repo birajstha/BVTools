@@ -52,6 +52,10 @@ Import time module to sustain the outputs for required interval.
 
 `gpio2.close()`
 
+## Thanks to
+- Peter Traunmüller
+- David Schubring
+- Edward Lau
 
 ## More Reads - Sending markers to Brain Products amplifier systems
 [Communication with the trigger port: A beginner’s guide](https://pressrelease.brainproducts.com/trigger-beginners-guide/)
