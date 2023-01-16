@@ -1,5 +1,5 @@
 ## Introduction
-Brain Products provides drivers for TriggerBox only to be used with computers running Windows OS. TriggerBox uses chip FT2232H hence we can use PyFtdi library in python as a workaround solution to make it work with linux.
+Brain Products provides drivers for [TriggerBox](https://www.brainproducts.com/solutions/triggerbox/) only to be used with computers running Windows OS. TriggerBox uses chip FT2232H hence we can use PyFtdi library in python as a workaround solution to make it work with linux.
 
 The example script `TriggerBox.py` shows how to use custom VID/PID to add TriggerBox as a known device. Furthermore, the script sends triggers/markers from 1 to 255. The original script from Dr. Traunmüller, to mirror the input triggers to output, has been commented. You can un-comment and use those if required. 
 
@@ -51,3 +51,7 @@ Import time module to sustain the outputs for required interval.
 `gpio1.close()`
 
 `gpio2.close()`
+
+
+## More Reads
+[Communication with the trigger port: A beginner’s guide](https://pressrelease.brainproducts.com/trigger-beginners-guide/)
