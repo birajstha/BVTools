@@ -48,9 +48,9 @@ Import time module to sustain the outputs for required interval.
 
 ## Closing the Ports
 
-`gpio1.close()`
+`>> gpio1.close()`
 
-`gpio2.close()`
+`>> gpio2.close()`
 
 ## Thanks to
 - Peter Traunmüller
