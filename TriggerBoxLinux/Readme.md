@@ -25,4 +25,16 @@ Please use Product ID (PID) = "0021" and Vendor ID (VID) = "1103"
 
 ## Configuring TriggerBox
 
+`gpio1.configure('ftdi://Brainproducts:0x0021:TB6QHXBF/1 ', direction=0b11111111) #1-8, all outputs`
+
+`gpio2.configure('ftdi://Brainproducts:0x0021:TB6QHXBF/2 ', direction=0b00000000) #8-15, all inputs`
+
 ## Sending Markers
+
+`>> gpio1.write(0x01)`
+
+## Close the Ports
+
+`gpio1.close()`
+
+`gpio2.close()`
