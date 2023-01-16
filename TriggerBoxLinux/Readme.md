@@ -13,6 +13,7 @@ Please Note that all of the below commands implemented in the TriggerBox.py file
 
 ## Adding Brain Products TriggerBox as known devices
 Please use Product ID (PID) = "0021" and Vendor ID (VID) = "1103"
+
 `>> ftdi.add_custom_vendor(0x1103, "Brainproducts")`
 
 `>> ftdi.add_custom_product(0x1103, 0x0021)`
