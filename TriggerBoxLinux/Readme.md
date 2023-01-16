@@ -1,5 +1,6 @@
 ## Introduction
 Brain Products provides drivers for TriggerBox only to be used with computers running Windows OS. TriggerBox uses chip FT2232H hence we can use PyFtdi library in python as a workaround solution to make it work with linux.
+
 The example script `TriggerBox.py` shows how to use custom VID/PID to add TriggerBox as a known device. Furthermore, the script sends triggers/markers from 1 to 255. The original script from Dr. Traunmüller, to mirror the input triggers to output, has been commented. You can un-comment and use those if required. 
 
 ## Prequisites
@@ -8,16 +9,16 @@ The library PyFtdi has prerequisites hence please follow the setup from [here](h
 Please Note that all of the below commands implemented in the TriggerBox.py file. You just have to copy and modify the address that shows up when listing your device.
 ## Importing libraries
 
-`>> from pyftdi.ftdi import ftdi`
+`>> from pyftdi.ftdi import Ftdi`
 
 `>> from pyftdi.gpio import GpioAsyncController`
 
 ## Adding Brain Products TriggerBox as known devices
 Please use Product ID (PID) = "0021" and Vendor ID (VID) = "1103"
 
-`>> ftdi.add_custom_vendor(0x1103, "Brainproducts")`
+`>> Ftdi.add_custom_vendor(0x1103, "Brainproducts")`
 
-`>> ftdi.add_custom_product(0x1103, 0x0021)`
+`>> Ftdi.add_custom_product(0x1103, 0x0021)`
 
 ## list your devices
 - Please connect your TriggerBox and run `TriggerBox.py`
@@ -31,8 +32,19 @@ Please use Product ID (PID) = "0021" and Vendor ID (VID) = "1103"
 `gpio2.configure('ftdi://Brainproducts:0x0021:TB6QHXBF/2 ', direction=0b00000000) #8-15, all inputs`
 
 ## Sending Markers
+Import time module to sustain the outputs for required interval.
 
-`>> gpio1.write(0x01)`
+`>> import time` #used for sleep / pulse length
+
+`>> gpio1.write(0x00)` # set all outputs to zero
+
+`>> time.sleep(0.5)` # sleep for trigger pulse length, at least >2 sample points depending on sampling rate
+
+`>> gpio1.write(0x05)`# send example trigger 5, please note that different number formats exist, e.g. 0x is hex, 0b is binary, etc. 
+
+`>> time.sleep(0.5)`# sleep for trigger pulse length, at least >2 sample points depending on sampling rate
+
+`>> gpio1.write(0x00)`
 
 ## Close the Ports
 
