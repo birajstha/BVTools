@@ -17,7 +17,7 @@ The library PyFtdi has prerequisites hence please follow the setup from [here](h
 
 `ftdi://Brainproducts:0x0021:TB6QHXBF/2  (TriggerBox)`
 
-- Now, Please copy the above address `TB6QHXBF/1` to use in 
+- Now, Please copy the above address `TB6QHXBF/1` , `TB6QHXBF/2`  to use in 
 `gpio1.configure()` function in LinuxTriggerBox.py
 
 ![UbuntuTB](https://user-images.githubusercontent.com/111654544/212751366-6ff4fcf8-8487-4c62-86c2-ebe0112aa4a8.png)
