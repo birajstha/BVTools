@@ -34,17 +34,17 @@ Please use Product ID (PID) = "0021" and Vendor ID (VID) = "1103"
 ## Sending Markers
 Import time module to sustain the outputs for required interval.
 
-`>> import time` #used for sleep / pulse length
+`>> import time` ==> used for sleep / pulse length
 
-`>> gpio1.write(0x00)` --> set all outputs to zero
+`>> gpio1.write(0x00)` ==> set all outputs to zero
 
-`>> time.sleep(0.5)` --> sleep for trigger pulse length, at least >2 sample points depending on sampling rate
+`>> time.sleep(0.5)` ==> sleep for trigger pulse length, at least >2 sample points depending on sampling rate
 
-`>> gpio1.write(0x05)` --> send example trigger 5, please note that different number formats exist, e.g. 0x is hex, 0b is binary, etc. 
+`>> gpio1.write(0x05)` ==> send example trigger 5, please note that different number formats exist, e.g. 0x is hex, 0b is binary, etc. 
 
-`>> time.sleep(0.5)` --> sleep for trigger pulse length, at least >2 sample points depending on sampling rate
+`>> time.sleep(0.5)` ==> sleep for trigger pulse length, at least >2 sample points depending on sampling rate
 
-`>> gpio1.write(0x00)` --> set all outputs to zero
+`>> gpio1.write(0x00)` ==> set all outputs to zero
 
 ## Close the Ports
 
