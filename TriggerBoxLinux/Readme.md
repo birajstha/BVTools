@@ -4,19 +4,20 @@ Brain Products provides drivers for TriggerBox only to be used with computers ru
 ## Prequisites
 The library PyFtdi has prerequisites hence please follow the setup from [here](https://eblot.github.io/pyftdi/installation.html#prerequisites)
 
-To list your devices:
+## list your devices
+- Please connect your TriggerBox and run following command in python. 
 
 `>> from pyftdi.ftdi import Ftdi`
 
 `>> Ftdi.show_devices()`
 
-If you could see your devices listed as
+- You should see your TriggerBox listed as follows
 
-`Brainproducts:0x0021:TB6QHXBF/1 `
+`ftdi://Brainproducts:0x0021:TB6QHXBF/1  (TriggerBox)`
 
-`Brainproducts:0x0021:TB6QHXBF/2 `
+`ftdi://Brainproducts:0x0021:TB6QHXBF/2  (TriggerBox)`
 
-then, you can copy the address to use in 
+- Now, Please copy the above address `TB6QHXBF/1` to use in 
 `gpio1.configure()` function in LinuxTriggerBox.py
 
 ![UbuntuTB](https://user-images.githubusercontent.com/111654544/212751366-6ff4fcf8-8487-4c62-86c2-ebe0112aa4a8.png)
