@@ -22,7 +22,6 @@ gpio1 = GpioAsyncController()
 gpio2 = GpioAsyncController()
         
 try :
-        #search for devices and print them
         with redirect_stdout(catcher):
                 exec('Ftdi.show_devices()')
         devices = catcher.getvalue()
