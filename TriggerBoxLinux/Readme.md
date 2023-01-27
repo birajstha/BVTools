@@ -11,13 +11,13 @@ Please Note that all of the below commands implemented in the TriggerBox.py file
 ## Running the code 
 `>> python3 TriggerBox.py`
 
-![Screenshot](https://user-images.githubusercontent.com/111654544/215162350-fde38ff5-4f66-4337-8f34-136427451810.png)
+![Screenshot](https://user-images.githubusercontent.com/111654544/215162350-fde38ff5-4f66-4337-8f34-136427451810.png){Source: Biraj Shrestha}
 
 
 
 
 ## Thanks to
-- Peter Traunmüller
+- Peter Traunmüller 
 - David Schubring
 - Edward Lau
 
