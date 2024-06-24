@@ -1,0 +1,32 @@
+2023-05-07 18:03:34,893 - BirajTools - INFO - 12\12/12 testing completed
+2023-05-07 19:20:17,626 - BirajTools - INFO - 123 testing completed
+2023-05-07 19:30:10,232 - BirajTools - INFO - qweqwe testing completed
+2023-05-08 19:27:30,802 - BirajTools - INFO - 123 testing completed
+2023-05-08 19:39:03,614 - BirajTools - INFO - 123 testing completed
+2023-05-08 19:40:50,828 - BirajTools - INFO - 123 testing completed
+2023-05-08 19:46:41,301 - BirajTools - CRITICAL - Check your internet and retry!!
+2023-05-08 19:48:54,208 - BirajTools - ERROR - Folder creation failed
+2023-05-08 19:49:36,186 - BirajTools - INFO - 1233 testing completed
+2023-05-08 20:00:11,174 - BirajTools - CRITICAL - Check your internet and retry!!
+2023-05-08 20:01:32,039 - BirajTools - INFO - 123 testing completed
+2023-05-08 20:02:12,175 - BirajTools - INFO - 123 testing completed
+2023-05-11 16:32:25,571 - BirajTools - ERROR - Failed to initialize camera
+2023-05-11 16:36:05,752 - BirajTools - CRITICAL - Something went wrong! Please retry..
+2023-05-11 16:36:39,807 - BirajTools - ERROR - can't multiply sequence by non-int of type 'float'
+2023-05-11 16:37:30,911 - BirajTools - ERROR - OpenCV(4.7.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - Can't parse 'dsize'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'dsize'. Sequence item with index 1 has a wrong type
+
+2023-05-11 16:40:14,691 - BirajTools - INFO - 123 testing completed
+2023-05-11 16:42:21,845 - BirajTools - INFO - 123 testing completed
+2023-05-11 16:52:27,448 - BirajTools - INFO - 123 testing completed
+2023-05-11 17:10:29,785 - BirajTools - ERROR - name 'VideoCapture' is not defined
+2023-05-11 17:13:30,150 - BirajTools - ERROR - name 'VideoCapture' is not defined
+2023-05-11 17:16:36,208 - BirajTools - ERROR - name 'VideoCapture' is not defined
+2023-05-11 18:45:55,210 - BirajTools - INFO - 123 testing completed
+2023-05-11 19:33:00,020 - BirajTools - ERROR - 'height'
+2023-05-11 19:34:44,690 - BirajTools - ERROR - 'height'
+2023-05-11 19:37:03,361 - BirajTools - ERROR - name 'aspect_ratio' is not defined
+2023-05-11 19:40:06,433 - BirajTools - INFO - 11 testing completed
+2023-05-11 20:05:24,485 - BirajTools - INFO - 123 testing completed
