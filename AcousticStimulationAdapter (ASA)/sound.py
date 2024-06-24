@@ -54,4 +54,4 @@ def play_and_save_sound(frequency, total_duration, beep_duration, pause_duration
 
 # Example usage
 # Adjusted example usage for half-second tone, half-second pause, and 30 seconds total duration
-play_and_save_sound(1000, 30, 0.5, 0.5, "beep_sound_30s")
+play_and_save_sound(1000, 30, 0.2, 1, "beep_sound_30s_1")
